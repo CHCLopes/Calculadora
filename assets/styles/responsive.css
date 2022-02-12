@@ -1,0 +1,36 @@
+@media screen and (max-width:750px) {
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .modeToggle {
+    width: 110px;
+    border-radius: 20px 20px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-size: 0.8rem
+  }
+
+}

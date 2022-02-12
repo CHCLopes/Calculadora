@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br" height="100%" width="100%">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/styles/styles.css">
+  <link rel="stylesheet" href="assets/styles/responsive.css">
+  <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/hopstarter/soft-scraps/128/Calculator-icon.png" type="image/x-icon">
+  <title>Minha Calculadora</title>
+</head>
+<body id="body">
+  <div class="container margins">
+    <h1 class="page-title margins">Minha Calculadora</h1>
+    <nav>
+      <div class="modeToggle">
+      <p>Modo Noturno</p>
+      <button id="mode" class="modeButton" onclick="darkMode()"></button>
+      </div>
+    </nav>
+  </div>
+  <div class="container margins">
+  <section id="instructions">
+    <h3>Intruções</h3>
+    <p>1 - A calculadora sempre começa desligada,<br> como indica o botão ON/OFF;</p>
+    <p>2 - Ligue a calculadora clicando no Botão ON/OFF; </p>
+    <p>3 - Clique nos botões para digitar os números e <br>fazer as operações e depois no botão "=" (igual) <br>para ter o resultado; </p>
+    <p>4 - Se quiser fazer uma pequena correção,<br> apagando apenas um número, <br>clique em "<=" (backspace)</p>
+    <p>5 - Se deseja fazer uma nova operação ou apagar a atual, <br>clique em "CE" (clean) </p>
+  </section>
+  <section id="calculator" class="calc all margins">
+    <p id="display" class="display all"></p>
+    <div class="keys">
+      <div class="btnGroup">
+        <button id="onoff" class="keybtn" onclick="onOff()"></button>
+        <button id="ce" class="keybtn" onclick="clean()" >CE</button>
+        <button id="bs" class="keybtn" onclick="backspace()"><=</button>
+      </div>
+    <div class="btnGroup">
+      <button class="keybtn" onclick="insert('7')">7</button>
+      <button class="keybtn" onclick="insert('4')">4</button>
+      <button class="keybtn" onclick="insert('1')">1</button>
+      <button class="keybtn" onclick="insert('0')">0</button>
+    </div>
+    <div class="btnGroup">
+      <button class="keybtn" onclick="insert('8')">8</button>
+      <button class="keybtn" onclick="insert('5')">5</button>
+      <button class="keybtn" onclick="insert('2')">2</button>
+      <button class="keybtn" onclick="insert('.')">.</button>
+    </div>
+    <div class="btnGroup">
+      <button class="keybtn" onclick="insert('9')" >9</button>
+      <button class="keybtn" onclick="insert('6')">6</button>
+      <button class="keybtn" onclick="insert('3')">3</button>
+      <button class="keybtn" onclick="calc()" >=</button>
+    </div>
+    <div class="btnGroup">
+      <button class="keybtn" onclick="insert('+')">+</button>
+      <button class="keybtn" onclick="insert('-')">-</button>
+      <button class="keybtn" onclick="insert('*')">x</button>
+      <button class="keybtn" onclick="insert('/')">/</button>
+    </div>
+  </div>     
+  </section>
+</div>
+  <script src="assets/scripts/scripts.js"></script>
+</body>
+</html>
