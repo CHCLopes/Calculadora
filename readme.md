@@ -11,3 +11,4 @@ Sites ferramentas:
 - [netlify](netlify.com) "hospedagem gratuita do site"
 - [dio](web.dio.me) "aprendizado"
 
+Site publicado: [Calculadora] (https://sk8rcalc.netlify.app/)
