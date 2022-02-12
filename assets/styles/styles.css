@@ -47,6 +47,13 @@ body.dark-mode {
 	color: whitesmoke;
 }
 
+.page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 .container {
 display: flex;
 flex-direction: row;
