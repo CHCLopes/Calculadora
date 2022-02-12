@@ -27,7 +27,7 @@
     align-items: center;
     margin: 1px;
     padding: 1px;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
 
@@ -41,7 +41,7 @@
   }
 
   nav{
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     flex-direction: row;
     align-self: center;
