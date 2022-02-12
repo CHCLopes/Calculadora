@@ -27,13 +27,13 @@
     align-items: center;
     margin: 1px;
     padding: 1px;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
 
   .container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 1px;
@@ -41,7 +41,7 @@
   }
 
   nav{
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
     align-self: center;
