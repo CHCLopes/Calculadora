@@ -4,7 +4,7 @@
     margin: 2px;
     padding:2px;
     font-size: 20px;
-    border-radius: 10% 10%
+    border-radius: 15% 15%
   }
 
 
@@ -22,7 +22,7 @@
 
   .navbar{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 1px;
