@@ -3,7 +3,8 @@
   .page-title {
     margin: 1px;
     padding:1px;
-    font-size: 24px;
+    font-size: 20px;
+    border-radius: 20% 20%
   }
 
 
