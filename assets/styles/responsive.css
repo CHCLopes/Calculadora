@@ -80,3 +80,10 @@
     font-size: 18px;
     }
 }
+
+
+@media screen and (min-width:680px) {
+  
+.keybtn:hover {
+  background-color: gray;
+}
