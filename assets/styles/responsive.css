@@ -88,3 +88,7 @@
   background-color: gray;
  }
 }
+
+.modeButton:hover {
+  background-color: gray;
+}

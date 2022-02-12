@@ -92,10 +92,6 @@ button {
   display: flex;
 }
 
-.modeButton:hover {
-  background-color: gray;
-}
-
 .calc{
   display: flex;
   flex-direction: column;
