@@ -1,7 +1,14 @@
 @media screen and (max-width:1080px) {
-   
+  
+  .page-title {
+    margin: 1px;
+    padding:1px;
+    font-size: 24px;
+  }
+
+
   .keybtn {
-    width: 45px;
+    width: 47px;
     height: 30px;
     border-radius: 20% 20%;
     display: flex;
@@ -24,7 +31,7 @@
   nav{
     justify-content: space-evenly;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-self: center;
     margin: 0;
     padding: 0;
