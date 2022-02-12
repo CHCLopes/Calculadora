@@ -54,4 +54,18 @@
     padding: 0;
   }
 
+  .display{
+    width: 90%;
+    height: 25px;
+    border-radius: 10px 10px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    background-color: whitesmoke;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1px;
+    margin: 1px;
+    font-size: 18px;
+
 }
