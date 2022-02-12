@@ -82,13 +82,13 @@
 }
 
 
-@media screen and (min-width:680px) {
+@media screen and (min-width:700px) {
 
-.keybtn:hover {
-  background-color: gray;
- }
-}
+  .keybtn:hover {
+    background-color: gray;
+   }
 
-.modeButton:hover {
-  background-color: gray;
+  .modeButton:hover {
+    background-color: gray;
+  }
 }
