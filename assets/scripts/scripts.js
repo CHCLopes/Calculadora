@@ -2,6 +2,7 @@ var on = false;
 var dark = false;
 const calcONClass = 'calcON';
 const darkModeClass = 'dark-mode';
+const TITLE = document.getElementById('pageTitle');
 const MODEBTN = document.getElementById('mode');
 const ONOFF = document.getElementById('onoff');
 const DISPLAY = document.getElementById('display');
@@ -17,7 +18,7 @@ function darkMode() {
     document.getElementById('mode').innerHTML = "ON";
     BODY.classList.toggle(darkModeClass);
     CALCULATOR.classList.toggle(darkModeClass);
-    MODEBTN.classList.toggle(calcONClass)
+    MODEBTN.classList.toggle(calcONClass);
   } else if (dark != false && document.getElementById('mode').click){
     dark = !dark;
     document.getElementById('mode').textContent = "OFF";
@@ -33,12 +34,14 @@ function onOff(){
     document.getElementById('onoff').innerHTML = "ON";
     ONOFF.classList.toggle(calcONClass);
     DISPLAY.classList.toggle(calcONClass);
+    TITLE.classList.toggle(calcONClass);
   } else if (on != false && document.getElementById('onoff').click) {
     on = !on;
     document.getElementById('onoff').innerHTML = "OFF";
     document.getElementById('display').innerHTML = '';
     ONOFF.classList.remove(calcONClass);
     DISPLAY.classList.remove(calcONClass);
+    TITLE.classList.remove(calcONClass);
     }
   }
   
